@@ -12,8 +12,8 @@ export default function AdminLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className='text-green-200 font-bold text-2xl flex flex-col items-center justify-center p-4'>
-        <h2 className='p-4'>Admin Pages</h2>
+    <div className='text-blue-200 font-bold text-2xl flex flex-col items-center justify-center p-4'>
+        <h2 className='mb-6 border-blue-200 border-b-2'>Admin Pages</h2>
         <section>
             <Link href="/admin/profile" className='mr-3 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>Profile</Link>
             <Link href="/admin/settings" className='mr-3 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>Settings</Link>
