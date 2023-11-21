@@ -1,4 +1,5 @@
 import BackBtn from "@/components/backBtn"
+import { wait } from "@/lib/utils"
 
 export default async function PostsPage () {
     const data: any = await fetch('https://jsonplaceholder.typicode.com/posts', {
@@ -11,7 +12,7 @@ export default async function PostsPage () {
 
     return (
         <>
-            <h2 className="text-green-200 font-bold text-2xl flex items-center justify-center p-4">
+            <h2 className="text-green-200 font-bold text-2xl flex items-center justify-centeusers">
                 Posts Page
             </h2>
             <BackBtn/>
