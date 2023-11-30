@@ -11,7 +11,10 @@ export default function Layout({
 }) {
     return (
       <div className="p-4">
-      <h2 className="custom-header">Parallel Routes <span><BackBtn/></span></h2>
+      {/* <div className="flex-around"> */}
+        <h2 className="custom-header">Parallel Routes</h2>
+        <BackBtn/>
+      {/* </div> */}
       {/* <BackBtn/> */}
       <div className="grid grid-cols-2 gap-2">
       {/* <div className="flex justify-around items-center"> */}

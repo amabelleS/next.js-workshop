@@ -12,7 +12,7 @@ export default async function PostsPage () {
 
     return (
         <>
-            <h2 className="text-green-200 font-bold text-2xl flex items-center justify-centeusers">
+            <h2 className="custom-header">
                 Posts Page
             </h2>
             <BackBtn/>

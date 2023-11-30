@@ -20,17 +20,19 @@
 .flex-between {
   @apply flex justify-between items-center;
 }
+.flex-around {
+  @apply flex justify-around items-center;
+}
 
 .custom-btn {
   @apply flex flex-row justify-center items-center px-4 py-2 outline-none text-xl text-center font-normal whitespace-nowrap rounded-lg w-full md:w-fit cursor-pointer;
-
 }
 
 .custom-header {
-  @apply font-bold text-4xl capitalize border-b-2 border-green-200 flex items-center justify-center mb-6;
+  @apply font-bold text-4xl capitalize border-b-2 border-green-200 text-green-200 flex items-center justify-center mb-6;
 }
 .custom-header2 {
-  @apply font-bold text-4xl capitalize border-b-2 border-green-200 flex items-center justify-center mb-6;
+  @apply font-bold text-2xl capitalize border-b-2 text-green-300 border-green-200 flex items-center justify-center mb-6;
 }
 
 
